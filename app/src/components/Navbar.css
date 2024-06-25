@@ -1,0 +1,136 @@
+.navbar {
+    width: 100%;
+    z-index: 999;
+}
+
+.top-half {
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffff;
+    padding: 15px 0%;
+    border: 0.2px solid;
+    border-color: #242424;
+    position: sticky;
+}
+
+.bottom-half {
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #eeeeee;
+    position: sticky;
+}
+
+.logo {
+    width: 160px;
+    left: 0px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    margin: 0;
+    left: 0;
+}
+
+.nav-item {
+    height: 40px;
+}
+  
+  
+.nav-links {
+    color: #000000;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    font-size: 2rex;
+}
+  
+.nav-links:hover {
+    color: #7b7b7bb9;
+    transition: all 0.2s ease-out;
+}
+
+.search-box-container {
+    display:flex;
+    width: 1000px;
+    left: 15%;
+    align-items: center;
+    background : #ffff;
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 50px;
+    border-color:#a1a1a1;
+    position: absolute;
+}
+
+.search-box-container:hover {
+    border: 1px solid;
+    border-color:#242424;
+}
+
+.search-box {
+    padding: 6px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #242424;
+    font-size: 2rex;
+    width: 100%;
+}
+
+.search-box-container input::placeholder {
+    color: #242424;
+}
+
+.search-box-container img{
+    width: 20px;
+    cursor: pointer;
+}
+
+.clothing-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    margin: 0;
+    left: 0;
+}
+
+.clothing-item {
+    height: 50px;
+}
+
+.clothing-item:hover {
+    background-color:#242424;
+    transition: all 0.2s ease-out;
+}
+  
+.clothing-links {
+    color: #000000;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    font-size: 2rex;
+}
+  
+.clothing-links:hover {
+    color: #fff;
+    transition: all 0.2s ease-out;
+}
