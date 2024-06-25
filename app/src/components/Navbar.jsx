@@ -41,34 +41,6 @@ const Navbar = () => {
               </li>
           </ul>
       </div>  
-      <div className='bottom-half'>
-        <ul className='clothing-menu'>
-                <li className='clothing-item'>
-                <Link
-                    to="/market"
-                    className="clothing-links"
-                  >
-                    Menswear
-                  </Link>
-                </li>
-                <li className='clothing-item'>
-                <Link
-                    to="/market"
-                    className="clothing-links"
-                  >
-                    Womenswear
-                  </Link>
-                </li>
-                <li className='clothing-item'>
-                <Link
-                    to="/market"
-                    className="clothing-links"
-                  >
-                    New
-                  </Link>
-                </li>
-            </ul>
-        </div>
     </div>
   )
 }
