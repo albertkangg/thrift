@@ -1,6 +1,6 @@
 .navbar {
     width: 100%;
-    z-index: 999;
+    
 }
 
 .top-half {
@@ -13,6 +13,7 @@
     border: 0.2px solid;
     border-color: #242424;
     position: sticky;
+    z-index: 999;
 }
 
 .bottom-half {
@@ -22,6 +23,7 @@
     justify-content: space-between;
     background: #eeeeee;
     position: sticky;
+    z-index: 15;
 }
 
 .logo {
