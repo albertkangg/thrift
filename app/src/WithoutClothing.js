@@ -1,8 +1,8 @@
 import React from "react";
-import NavBar from "./components/Navbar";
+import NavBar from "./Components/Navbar";
 import { Outlet } from "react-router";
 
-export default () => {
+const WithoutClothing = () => {
   return (
     <>
       <NavBar />
@@ -10,3 +10,5 @@ export default () => {
     </>
   );
 };
+
+export default WithoutClothing;

@@ -1,9 +1,9 @@
 import React from "react";
-import NavBar from "./components/Navbar";
-import ClothingMenu from "./components/ClothingMenu";
+import NavBar from "./Components/Navbar";
+import ClothingMenu from "./Components/ClothingMenu";
 import { Outlet } from "react-router";
 
-export default () => {
+const WithClothing = () => {
   return (
     <>
       <NavBar />
@@ -12,3 +12,5 @@ export default () => {
     </>
   );
 };
+
+export default WithClothing;
