@@ -26,6 +26,7 @@
 
 .clothing-item {
     height: 50px;
+    width: 100%;
 }
 
 .clothing-item:hover {
