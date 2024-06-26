@@ -1,0 +1,74 @@
+.dropdown-container {
+    align-items: center;
+    position: absolute;
+    z-index: 999;
+    left: 0px;
+    right: 0px;
+    margin-top: 50px;
+}
+
+.clothing-types {
+    columns: 3;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    list-style: none;
+    text-align: start;
+    background: #ffff;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.clothing-types-text {
+    font-size: 3rex;
+    width: 103%;
+    margin: 0;
+    color:#000000;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.clothing-submenu {
+    width: 100%;
+    z-index: 999;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    list-style: none;
+    margin-top: 70px;
+    text-align: start;
+    background: #ffff;
+    columns: 3;
+    display: inline-block;
+}
+
+
+.clothing-submenu-list {
+    background: #ffff;
+    border-bottom: 0.01px solid;
+    border-right: 0.01px solid;
+    border-color: #242424;
+    margin: 0;
+    cursor: pointer;
+    width: 103%;
+}
+
+.clothing-submenu-list:hover {
+    background: #d7d7d7b9;
+    transition: all 0.2s ease-out;
+}
+
+.clothing-submenu.clicked {
+    display: none;
+}
+
+.clothing-items-text {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #242424;
+    padding: 16px;
+}
