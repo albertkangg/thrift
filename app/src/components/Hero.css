@@ -1,0 +1,65 @@
+.Hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+
+  .crop-container {
+    display: flex;
+    overflow: hidden;
+    transform: translate(-0px, 20px);
+    padding-right: 100px;
+  }
+  
+  .crop-container img {
+    height: 650px;
+    width: 1000px;
+    max-width: none;
+    object-fit: cover;
+    object-position: 0% 0%;
+    transform: translate(100px, -10px);
+    margin-top: -1;
+    margin-bottom: 1;
+    
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+  }
+  
+  .hero-text h1 {
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    width: 550px;
+  }
+  
+  .hero-text ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create 2 equal columns */
+    gap: 10px; /* Adjust the gap between items as needed */
+    column-gap: 20px;
+    padding: 0;
+    padding-bottom: 40px;
+    margin: 0;
+    list-style-type: none;
+    width: 600px; /* Make sure the list takes full width of its container */
+}
+  
+  .hero-text ul li {
+    list-style-type: none; /* Removes default bullets */
+    position: relative;
+    padding-left: 30px; /* Space for custom bullet */
+    font-size: 25px;
+  }
+  
+  .hero-text ul li:before {
+    content: '✔'; /* Custom bullet point */
+    position: absolute;
+    left: 0;
+    color: black; /* Bullet color */
+  }
+
