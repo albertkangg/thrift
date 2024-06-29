@@ -1,0 +1,14 @@
+/* lol idk what terms and condtions are */
+body{
+    background-color: #060806;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.terms{
+    margin-top: 50px;
+}
