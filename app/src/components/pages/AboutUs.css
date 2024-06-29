@@ -1,0 +1,72 @@
+/* AboutUs.css */
+
+.relative {
+    position: relative;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .h-screen {
+    min-height: 100vh; /* Ensure minimum height of viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem; /* Adjust as per your footer height */
+  }
+  
+  .hero-heading {
+    font-size: 2.5rem; /* Adjust as needed */
+    font-weight: bold;
+    margin-top: 2rem; /* Adjust spacing from image */
+    text-align: center;
+    color: #333; /* Adjust color */
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.content-section {
+    max-width: 800px;
+    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  
+  .content-item {
+    margin-bottom: 2rem;
+  }
+  
+  .content-item h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .content-item p {
+    margin-top: 1rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  
