@@ -1,15 +1,15 @@
 import "./App.css";
-import Navbar from "./components/Navbar.jsx";
-import ClothingMenu from "./components/ClothingMenu.jsx";
-import Home from "./components/pages/Home";
-import Login from "./components/Login.jsx";
-import SignUp from "./components/Signup.jsx";
-import Footer from "./components/Footer.jsx";
+import Navbar from "./Components/Navbar.jsx";
+import ClothingMenu from "./Components/ClothingMenu.jsx";
+import Home from "./Components/pages/Home";
+import Login from "./Components/Login.jsx";
+import SignUp from "./Components/Signup.jsx";
+import Footer from "./Components/Footer.jsx";
 import WithClothing from "./WithClothing.js";
 import WithoutClothing from "./WithoutClothing.js";
-import CookieConsent from './components/CookieConsent.js';
-import TermsAndConditions from './components/pages/TermsAndConditions.js';
-import AboutUs from './components/pages/AboutUs.jsx';
+import CookieConsent from './Components/CookieConsent.js';
+import TermsAndConditions from './Components/pages/TermsAndConditions.js';
+import AboutUs from './Components/pages/AboutUs.jsx';
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
